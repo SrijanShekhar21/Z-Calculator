@@ -277,6 +277,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
+          <Route path="/" element={<Navigate to="/calculator" />} />
           <Route path="/calculator" element={<Calculator data={zdata} />} />
           <Route path="/data" element={<Data data={zdata} />} />
         </Routes>
