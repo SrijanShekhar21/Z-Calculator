@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  Navigate,
+} from "react-router-dom"; // Import Navigate
 import Navbar from "./components/Navbar/Navbar";
 import Calculator from "./components/Calculator/Calculator";
 import Data from "./components/Data/Data";
