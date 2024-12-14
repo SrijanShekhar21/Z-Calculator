@@ -122,7 +122,7 @@ function Calculator({ data }) {
           <div className="input-container">
             <div className="input-group">
               <label htmlFor="temperature" className="input-label">
-                Enter Temperature (T):
+                Enter Temperature (T) in K:
               </label>
               <input
                 type="number"
@@ -135,7 +135,7 @@ function Calculator({ data }) {
             </div>
             <div className="input-group">
               <label htmlFor="pressure" className="input-label">
-                Enter Pressure (P):
+                Enter Pressure (P) in atm:
               </label>
               <input
                 type="number"
